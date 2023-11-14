@@ -1,0 +1,35 @@
+<section class="container">
+    <div class="header-container">
+        <div class="info-container">
+            <p>Session Length 30min: </p>
+            <div>
+                <button>One</button><button>Two</button>
+            </div>
+        </div>
+        <p>View Tutorial</p>
+    </div>
+    <div>
+        <table class="table-container">
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <tr *ngFor="let item of time">
+                    <td>{{item}}</td>
+                    <td ></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            
+        </table>
+    </div>
+    <button class="submit-button">Submit</button>
+</section>

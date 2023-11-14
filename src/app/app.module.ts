@@ -7,12 +7,14 @@ import { SurveyList } from './surveyList/surveyList.component';
 import { Filters } from './filters/filters.component';
 import { RouterModule } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
+import { TableUiComponent } from './table-ui/table-ui.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SurveyList,
-    Filters
+    Filters,
+    TableUiComponent
   ],
   imports: [
     BrowserModule,
